@@ -12,7 +12,8 @@ public class helloworld
     {
         System.out.println("Hello World");
         int s=sum(12,18);
-        System.out.println("Sum of 12 and 18 is "+s);
+        System.out.println(
+            "Sum of 12 and 18 is "+s);  // can span multiple lines
     }
 
     static int sum(int a, int b)
